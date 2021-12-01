@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="Online Grocery Shopping.css">
+   
+  
+</head>
+<body>
+
+	<nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo"><b>ONLINE GROCERY SHOPPING</b></a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+
+        <li class="current"><a href="Online Grocery Shopping.html"><b>FRUITS</b></a></li>
+        <li><a href="dairy product.html"><b>DAIRY PRODUCTS</b></a></li>
+        <li><a href="vegetables.html"><b>VEGETABLES</b></a></li>
+        <li><a href="condiments.html"><b>CONDIMENTS</b></a></li>
+        <li><a href="payment.html"><b>PAYMENT</b></a></li>
+
+      </ul>
+    </div>
+  </nav>
+  <script>
+  var i = 0; //Start point
+  var images = [];
+  var time = 1000;
+
+  //Images List 
+  images[0] = 'Showcase.jpg';
+  images[1] = 'Showcase1.jpg';
+  images[2] = 'Showcase2.jpg';
+  images[3] = 'Showcase3.jpg';
+
+  //Change Image
+  function changeImg(){
+    document.slide.src=images[i];
+
+    if (i < images.length-1){
+      i++;
+    }
+    else{
+      i=0;
+    }
+    setTimeout("changeImg()", time);
+    }
+    window.onload = changeImg;
+
+</script>
+<img class="img" name="slide" width="100%" height="560px">
+        
+	
+
+	<div class="product">
+
+		<div class="card">
+        <div class="card-image">
+          <img src="Apple.jpg" height="197px" width="220px">
+          <span class="card-title"><b>APPLE</b></span>
+        </div>
+        <div class="card-content">
+          <p>An apple is an edible fruit produced by an apple tree. Apple trees are cultivated worldwide and are the most widely grown species in the genus Malus.</p>
+        </div>
+        <div class="card-action">
+          <a href="#" class="btn grey black-text">BUY NOW!</a>
+        </div>
+    </div>
+
+      <div class="card">
+        <div class="card-image">
+          <img src="Pomegranate.jpg" height="197px" width="220px">
+          <span class="card-title"><b>POMEGRANATE</b></span>
+        </div>
+        <div class="card-content">
+          <p>Pomegranates can have up to three times more antioxidants than green tea or red wine. Antioxidants protect cells from damage, prevent diseases — such as cancer.</p>
+        </div>
+        <div class="card-action">
+          <a href="#" class="btn grey black-text">BUY NOW!</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-image">
+          <img src="Banana.jpg"height="197px" width="220px">
+          <span class="card-title"><b>BANANA</b></span>
+        </div>
+        <div class="card-content">
+          <p>A banana is the common name for a type of fruit and also the name for the herbaceous plants that grow it.Bananas contain fiber, potassium, folate. </p>
+        </div>
+        <div class="card-action">
+          <a href="#" class="btn grey black-text">BUY NOW!</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-image">
+          <img src="Dragon.jpg" height="197px" width="220px">
+          <span class="card-title"><b>RED DRAGON</b></span>
+        </div>
+        <div class="card-content">
+          <p>Dragon fruit has a ton of beneficial vitamins and minerals, including: Carotenoids (may reduce cancer risk). Lycopene (may improve heart health and reduce cancer risk).</p>
+        </div>
+        <div class="card-action">
+          <a href="#" class="btn grey black-text">BUY NOW!</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-image" >
+          <img src="Orange.jpg" height="197px" width="220px">
+          <span class="card-title"><b>ORANGE</b></span>
+        </div>
+        <div class="card-content">
+          <p>Oranges are a very good source of Vitamin C. Anti-oxidants in oranges help protect skin from free radical damage known to cause signs of aging.</p>
+        </div>
+        <div class="card-action">
+          <a href="#" class="btn grey black-text">BUY NOW!</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-image">
+          <img src="Watermelon.jpg" height="197px" width="220px">
+          <span class="card-title"><b>WATERMELON</b></span>
+        </div>
+        <div class="card-content">
+          <p>Watermelon is rich in an amino acid called citrulline that may help move blood through your body and can lower your blood pressure.</p>
+        </div>
+        <div class="card-action">
+          <a href="#" class="btn grey black-text">BUY NOW!</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-image">
+          <img src="Pineapple.jpg" height="197px" width="220px">
+          <span class="card-title"><b>PINEAPPLE</b></span>
+        </div>
+        <div class="card-content">
+          <p>This popular fruit is packed with nutrients, antioxidants and other helpful compounds, such as enzymes that can fight inflammation and disease.</p>
+        </div>
+        <div class="card-action">
+          <a href="#" class="btn grey black-text">BUY NOW!</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-image">
+          <img src="Grapes.jpg" height="197px" width="220px">
+          <span class="card-title"><b>GRAPES</b></span>
+        </div>
+        <div class="card-content">
+          <p>The nutrients in grapes may help protect against cancer, eye problems, cardiovascular disease, and other health conditions and a range of vitamins and other minerals.</p>
+        </div>
+        <div class="card-action">
+          <a href="#" class="btn grey black-text">BUY NOW!</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-image">
+          <img src="Papaya.jpg" height="197px" width="220px">
+          <span class="card-title"><b>PAPAYA</b></span>
+        </div>
+        <div class="card-content">
+          <p>The possible health benefits of consuming papaya include a reduced risk of heart disease, diabetes, cancer, aiding in digestion, improving blood glucose.</p>
+        </div>
+        <div class="card-action">
+          <a href="#" class="btn grey black-text">BUY NOW!</a>
+        </div>
+      </div>
+
+
+     
+    </div>
+
+</body>
+</html>
